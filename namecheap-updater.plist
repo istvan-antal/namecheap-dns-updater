@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>namecheap-dns-updater</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/void/Developer/namecheap-dns-updater/update.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <false/>
+    <key>UserName</key>
+    <string>void</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/void/Developer/namecheap-dns-updater/update.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/void/Developer/namecheap-dns-updater/error.log</string>
+    <key>StartInterval</key>
+    <integer>300</integer>
+</dict>
+</plist>
